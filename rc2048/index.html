@@ -6,6 +6,7 @@
   <link href="./rc2048_files/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<meta property="og:image" content="apple-touch-icon.png" />
   <meta name="apple-mobile-web-app-capable" content="yes">
 
   <meta name="HandheldFriendly" content="True">
@@ -25,6 +26,14 @@
   <style type="text/css"></style>
 </head>
 <body style="">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=642157445814007";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
   <div class="container">
     <div class="heading">
       <h1 class="title">RC 2048!</h1>
@@ -79,6 +88,7 @@
       <br><strong class="important">Note:</strong> Colleges are in no particular order ;) Also, this is actually 4096.
     </p>
     <hr>
+	<div class="fb-like" data-href="http://coollog.github.io/rc2048" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
     <p>
     Created by Qingyang Chen. Inspired by <a href="http://mitchellgu.github.io/GetMIT/">GetMIT by Mitchell Gu</a>. Based on <a href="http://gabrielecirulli.com/" target="_blank">2048 by Gabriele Cirulli.</a> and <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
     </p>
